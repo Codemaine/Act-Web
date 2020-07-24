@@ -17,6 +17,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 
 <script src="js/index.js"></script>
@@ -24,49 +26,49 @@
 
 <body>
 
-  <section class="nav-bar">
-  <div class="nav-container">
-    <div class="brand">
-      <a href="https://webdevtrick.com/"><img src="img/logo.png"></a>
-    </div>
-    <nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Web Development</a>
-          <ul class="nav-dropdown">
-            <li>
-              <a href="#">HTML</a>
-            </li>
-            <li>
-              <a href="#">CSS</a>
-            </li>
-            <li>
-              <a href="#">JavaScript</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</section>
+  <header class="header">
+            <a href="/" class="logo">Act Web</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="#forget">About Us</a></li>
+                <li><a href="#dont">Shop</a></li>
+                <li><a href="#dont">Contact Us</a></li>
+            </ul>
+        </header>
+
+<div>
 <!-- Slider main container -->
 <div class="swiper-container">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide" style="background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">Slide 1</div>
-        <div class="swiper-slide" style="background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">Slide 2</div>
-        <div class="swiper-slide" style="background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)">Slide 3</div>
+        <div class="swiper-slide img-fluid" style="background-image: url(https://i.imgur.com/oZ09S1B.png);">
+          <div class="inner container">
+            &nbsp
+            <h1>Get awesome websites</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <input type="button" value="Shop Now">
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div class="swiper-slide img-fluid" style="background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">
+          <div class="inner container">
+            &nbsp
+            <h1>Get Mobile Responsive websites</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <input type="button" value="Shop Now">
+          </div>
+        </div>
+        <div class="swiper-slide img-fluid" style="background-image: url(https://i.imgur.com/iis3x5E.png)">
+          <div class="inner container">
+            &nbsp
+            <h1>Get amazing apps</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <input type="button" value="Shop Now">
+          </div>
+        </div>
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
@@ -76,6 +78,7 @@
     <div class="swiper-button-next"></div>
 
 
+</div>
 </div>
 
 <script type="module">
