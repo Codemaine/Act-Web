@@ -12,10 +12,10 @@ function webd() {
 var paylike = Paylike('89e97b47-96c3-4e81-83de-fecf7c4399b3');
 
 	paylike.popup({
-    title: 'Buy Responsive Website',
-    description: 'Email jermaineantwi22@gmail.com and add the images and the look of the website.',
+    title: 'Buy a Responsive Website',
+    description: 'Email jermaineantwi22@gmail.com the images and the look of the website.',
 		currency: 'USD',
-		amount: 8000,
+		amount: 1400,
 	}, function( err, res ){
 			if (err)
 				return console.log(err);
@@ -24,5 +24,28 @@ var paylike = Paylike('89e97b47-96c3-4e81-83de-fecf7c4399b3');
 
 		alert('Thank you!');
 	});
+
+}
+
+// Android App Payment
+
+function adp() {
+
+  var paylike = Paylike('89e97b47-96c3-4e81-83de-fecf7c4399b3');
+
+  paylike.popup({
+    title: 'Buy an Android App',
+    description: 'Email jermaineantwi22@gmail.com the images and look of the app',
+    currency: 'USD',
+    amount: 1100,
+  }, function( err, res ) {
+    if (err)
+       return console.log(err);
+
+       console.log(res.transaction.id);
+
+       alert('Thank you!');
+
+  });
 
 }
