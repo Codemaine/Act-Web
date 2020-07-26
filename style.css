@@ -6,7 +6,7 @@ body {
 	font-family: 'Quicksand' !important;
 }
 * {
-	font-family: 'Quicksand';
+	font-family: 'Quicksand' !important;
 	scroll-behavior: smooth;
 }
 
