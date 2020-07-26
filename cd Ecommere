@@ -1,0 +1,119 @@
+[33mcommit c009c5bd4f0a575bb582372a8e6ca1f9f7fc351a[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 23:46:03 2020 +0000
+
+    added payment method for available prducts
+
+[33mcommit db6d8191700591db70887ffeda619060a5729e8a[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 20:32:02 2020 +0000
+
+    Added title tags
+
+[33mcommit 040d951c37a2619644d97c1e3c54ef22a0f0a236[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 18:17:44 2020 +0000
+
+    vertifing google webmaster
+
+[33mcommit 55c915281f63e899af50a2b49fde71cd44e2c9f2[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 18:12:42 2020 +0000
+
+    added meta tags
+
+[33mcommit a3249593fbb8f97dc3ab126e6fa311e15655e33b[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 17:22:41 2020 +0000
+
+    gave 'Responsive Website' a payment method
+
+[33mcommit c2c2580479ac72c048b15bb798c9b4d319856380[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 16:24:23 2020 +0000
+
+    added favicon
+
+[33mcommit 7d9a59c5252daab0408967ac241fee8141dbe0d9[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 11:16:55 2020 +0000
+
+    styled products section
+
+[33mcommit 21dbedecf0c8296f210e630ab8088cc14b454cad[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Sat Jul 25 11:15:59 2020 +0000
+
+    added a products section
+
+[33mcommit 1cb76cf86f7ce71faa52683c8a32e27f9d1adc7b[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Fri Jul 24 17:02:22 2020 +0000
+
+    gave behaviour to navbar
+
+[33mcommit 7ae8ef193f69a92182d2586a346e684ceffcb117[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Fri Jul 24 17:01:43 2020 +0000
+
+    styled navbar and slider content
+
+[33mcommit 91d5dfeb0c12031a94961daa0c1fbc5b616d6b67[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Fri Jul 24 17:00:51 2020 +0000
+
+    added content to sliders, added new navbar and fonts
+
+[33mcommit dac64b66755734f0bdecfe9dfaa41b9e0f058e69[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Fri Jul 24 14:21:20 2020 +0000
+
+    added background image to all slides
+
+[33mcommit ed9c3832025b9b4bc16a15069fc8cddbca5e0072[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Fri Jul 24 14:14:05 2020 +0000
+
+    slider config moved to html
+
+[33mcommit 41d429070ba44c6dc3d9d592349c0561a89d4865[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Fri Jul 24 14:12:49 2020 +0000
+
+    edited slides background
+
+[33mcommit 56f6884c400b3cf3073b0f30bc7a5aedeef4f736[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Fri Jul 24 14:08:33 2020 +0000
+
+    Added background image to the first slide
+
+[33mcommit 2c86553c8a6005456a8faf1efd071eff7b1bdb30[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Thu Jul 23 22:30:26 2020 +0000
+
+    Swiperjs set as swiper
+
+[33mcommit 3d5aad287ac010f3a32d71f45ee4a7b35bdb438c[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Thu Jul 23 21:29:31 2020 +0000
+
+    boostrap carousel replaced with swiperjs
+
+[33mcommit aebc7183c7f362bee2af4453772ae6d750a5b06c[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Thu Jul 23 20:39:57 2020 +0000
+
+    Added bootstrap carousel
+
+[33mcommit 69122b17986dc17b08e5dea1260e81dc6a5d1d5b[m
+Author: Jermaine <64845752+Codemaine@users.noreply.github.com>
+Date:   Thu Jul 23 20:12:55 2020 +0000
+
+    main html file
+
+[33mcommit 8f59db9c32191f225f484a7dcda41fa9fb5c4c65[m
+Author: Jermaine Antwi <jermaineantwi22@gmail.com>
+Date:   Thu Jul 23 19:45:35 2020 +0000
+
+    adding files to github
