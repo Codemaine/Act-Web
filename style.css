@@ -3,7 +3,11 @@ body {
 	margin: 0;
 	padding: 0;
     background-color: orange;
+<<<<<<< HEAD
 		font-family: 'Quicksand' !important;
+=======
+	font-family: 'Quicksand' !important;
+>>>>>>> e466644aa786e810e2facc7eec5136f5a351d53a
 }
 * {
 	font-family: 'Quicksand' !important;
