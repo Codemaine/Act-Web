@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- code by webdevtrick ( https://webdevtrick.com ) -->
 <html>
 
 <head>
@@ -9,10 +8,12 @@
 
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <title>Act Web Development</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="style.css">
    <meta charset="utf-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
    <meta name="description" content="Get awesome websites or apps for the cheapest prices">
   <meta name="keywords" content="Web development, App development, Act Web">
   <meta name="author" content="Jermaine Antwi">
@@ -35,21 +36,7 @@
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-<!-- GetButton.io widget -->
-<script type="text/javascript">
-    (function () {
-        var options = {
-            email: "jermaineantwi22@gmail.com", // Email
-            call_to_action: "Message us", // Call to action
-            position: "right", // Position may be 'right' or 'left'
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
-<!-- /GetButton.io widget -->
+
 </head>
 
 <body>
@@ -59,17 +46,17 @@
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
             <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#shop">Shop</a></li>
-                <li><a href="#dont">Contact Us</a></li>
-                <li><a href="#"><div class="g-signin2" data-onsuccess="onSignIn"></div></a></li>
+                <li><a href="#form">Contact Us</a></li>
+                <li style="height: 64px; width: 170px;"><a href=""><div class="g-signin2" data-onsuccess="onSignIn"></div></a></li>
             </ul>
         </header>
 
 <div>
 <!-- Slider main container -->
-<div class="swiper-container">
+<div id="home" class="swiper-container">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
@@ -78,7 +65,7 @@
             &nbsp
             <h1>Get awesome websites</h1>
             <p>Lorem ipsum dolor sit amet, consectetur.</p>
-            <input type="button" value="Shop Now">
+            <a href="#shop"><input type="button" value="Shop Now"></a>
           </div>
         </div>
         <div class="swiper-slide img-fluid" style="background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">
@@ -86,7 +73,7 @@
             &nbsp
             <h1>Get Mobile Responsive websites</h1>
             <p>Lorem ipsum dolor sit amet, consectetur.</p>
-            <input type="button" value="Shop Now">
+            <a href="#shop"><input type="button" value="Shop Now"></a>
           </div>
         </div>
         <div class="swiper-slide img-fluid" style="background-image: url(https://i.imgur.com/iis3x5E.png)">
@@ -107,9 +94,28 @@
 
 </div>
 </div>
+<div id="about" class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Welcome to Act Web Development Agencies, your number one source for all things sofware. We're dedicated to providing you the best of websites and apps, with a focus on dependability and customer service.
+
+
+We're working to turn our dream into a website or app. We hope you enjoy our products as much as we enjoy offering them to you.
+
+
+            </p>
+            <div class="skills">
+                <span>Web Design</span>
+                <span>App design</span>
+                <span>Coding</span>
+            </div>
+        </div>
+    </div>
 <div id="shop">
 <br><br><br><br><br><br><br><br><br>
  <div class="container-fluid">
+   <h1 id="welcome" style="text-align: center;">Shop</h1>
  <div class="row">
      <div class="col-md-3 col-sm-6">
          <div class="product-grid">
@@ -193,19 +199,46 @@
      </div>
  </div>
 </div>
+<center>
+<a href="#" style="text-decoration: none;" onclick="signOut();">Sign out</a>
+</center>
 <br><br><br><br><br><br><br><br><br>
 </div>
 
-<a href="#" onclick="signOut();">Sign out</a>
-<script>
-  function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
-</script>
+<div class="container-fluid">
+  <center>
+<form id="form" class="form">
+  <h2>CONTACT US</h2>
+  <p type="Name:"><input placeholder="Write your name here.." id="fie_name" value="" ></input></p>
+  <p type="Email:"><input placeholder="Let us know how to contact you back.." value="" id="fie_email"></input></p>
+  <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
+  <button>Send Message</button>
+  <div>
+    <span class="fa fa-phone"></span>001 1023 567
+    <span class="fa fa-envelope-o"></span> contact@company.com
+  </div>
+</form>
+</center>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="img/favicon.png" alt="" class="logo"><h1>Act Web</h1>
+          <p class="rights-text">© Copyright Act Web development 2020. All Rights Reserved.</p>
+        </div>
 
+        <div class="right-col">
+          <h1>Our Newsletter</h1>
+          <div class="border"></div>
+          <p>Enter Your Email to get our news and updates.</p>
+          <form action="" class="newsletter-form">
+            <input type="text" class="txtb" placeholder="Enter Your Email">
+            <input type="submit" class="btn" value="submit">
+          </form>
+        </div>
+      </div>
+    </footer>
 
 <script type="module">
   import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
@@ -244,3 +277,6 @@ var mySwiper = new Swiper('.swiper-container', {
 </body>
 
 </html>
+
+<!-- Code made by Jermaine (Codemanie) -->
+<!-- Copyright Jermaine Antwi 2020. All rights reserved -->

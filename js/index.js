@@ -1,3 +1,5 @@
+document.getElementById("user_section").style.visibility = "hidden";
+
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
     console.log("Clicked menu");
@@ -50,6 +52,7 @@ function adp() {
 
 }
 
+var bol = false;
 
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
@@ -57,4 +60,17 @@ function onSignIn(googleUser) {
   console.log('Name: ' + profile.getName());
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  document.getElementById('welcome').innerHTML = "Welcome, " + profile.getName();
+  document.getElementById('fie_email').value = profile.getEmail();
+  document.getElementById('fie_name').value = profile.getName();
+  document.getElementsByClassName('avatar').src = profile.getImageUrl();
+  console.log(profile);
+}
+
+function signOut() {
+  var auth2 = gapi.auth2.getAuthInstance();
+  auth2.signOut().then(function () {
+    document.getElementById('welcome').innerHTML = 'Shop';
+    console.log('User signed out.');
+  });
 }
