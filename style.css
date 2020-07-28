@@ -14,6 +14,10 @@ body {
 	scroll-behavior: smooth;
 }
 
+i, span {
+	font-family: FontAwesome !important;
+}
+
 h1{
 	font-weight: 600;
 }
@@ -168,6 +172,12 @@ h1{
 .swiper-slide{
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media (max-width: 575.98px) {
+	.swiper-slide{
+		padding-left: 12px;
+	}
 }
 
 .inner{
@@ -341,6 +351,7 @@ h1{
 	color: #333;
 	text-decoration: line-through;
 	margin-right: 3px;
+	font-family: normal !important;
 }
 .product-grid .price.discount{ color: var(--main-color); }
 @media only screen and (max-width:990px){
@@ -521,6 +532,10 @@ footer{
   transition: opacity .3s linear;
 }
 
+.btn:focus {
+	outline: none;
+}
+
 .btn:hover{
   opacity: .7;
 }
@@ -562,4 +577,45 @@ footer{
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+.app {
+	background-color: #9FB7FF;
+	padding-top: 150px;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-right: 10px;
+	height: 380px;
+}
+
+@media (max-width: 575.98px) {
+	.app {
+		padding-bottom: 340px;
+	}
+ }
+
+.app .inside {
+	float: right;
+	padding-right: 0px;
+}
+
+.app .inside h1 {
+	max-width: 670px;
+	padding-right: 0px;
+}
+
+.app .inside button {
+	float: right;
+	outline: none;
+	border: none;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.app .inside button:hover {
+  background-color: RoyalBlue;
 }
